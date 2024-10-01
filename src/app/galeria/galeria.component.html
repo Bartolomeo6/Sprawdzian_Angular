@@ -1,0 +1,7 @@
+<div class="dane" *ngFor="let samochod of listaSamochodow">
+    <h3>{{samochod.marka}}</h3>
+    <img [src]="samochod.zdjecie" [alt]="samochod.marka" width="150px">
+    <p>Rocznik: {{samochod.rocznik}}</p>
+    <p>Przebieg: {{samochod.przebieg}} km</p>
+    <p>Cena: {{samochod.cena}} PLN</p>
+</div>
